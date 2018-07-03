@@ -1,27 +1,17 @@
-# Dev Info
+import React from 'react'
+import './viewer.css'
 
-1st Try
-https://github.com/wojtekmaj/react-pdf
-https://www.npmjs.com/package/react-pdf
-
-
-===============================================================================================================================
-
-<div>
+export default class extends React.Component{
+    render(){
+        return(
+            <div>
                 <h3>El Component para PDF Viewer...</h3>
                 <hr/>
 
                 
                 <div dir="ltr" mozdisallowselectionprint moznomarginboxes>
                     <div>
-                        <meta charset="utf-8" />
-                        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-                        <meta name="google" content="notranslate" />
-                        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-                        <title>PDF.js viewer</title>
-
-
-                        <link rel="stylesheet" href="viewer.css" />
+                        
                         <link rel="resource" type="application/l10n" href="locale/locale.properties" />
                         <script src="../build/pdf.js"></script>
                         <script src="viewer.js"></script>
@@ -335,15 +325,6 @@ https://www.npmjs.com/package/react-pdf
 
 
             </div>
-
-===============================================================================================================================
-
-
-<meta charset="utf-8" />
-                        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-                        <meta name="google" content="notranslate" />
-                        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-                        <title>PDF.js viewer</title>
-
-
-                        <link rel="stylesheet" href="viewer.css" />
+        )
+    }
+}
