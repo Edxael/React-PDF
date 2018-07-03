@@ -29,3 +29,12 @@ body{
 .menuButton:hover{
     background-color: rgba(170, 252, 180, 0.823);
 }
+
+.k2{
+    border: 3px solid red;
+}
+
+#pasl{
+    background-color: rgb(215, 174, 253);
+    display: flex;
+}

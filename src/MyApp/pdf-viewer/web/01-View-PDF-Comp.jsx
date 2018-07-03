@@ -1,5 +1,5 @@
 import React from 'react'
-import './viewer.css'
+// import './viewer.css'
 
 export default class extends React.Component{
     render(){
@@ -316,7 +316,10 @@ export default class extends React.Component{
                         </div>  
 
                         </div> 
-                        <div id="printContainer"></div>
+                        <div id="printContainer">
+                            <div>Here goes PDF...</div>
+                            <object class="doc" data={"compressed.tracemonkey-pldi-09.pdf" } type="application/pdf"></object>
+                        </div>
                     </div>
                 </div>
                 
